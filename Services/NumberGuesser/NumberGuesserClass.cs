@@ -13,15 +13,15 @@ public class NumberGuesserClass : INumberGuesser
         int winningNumber = easy.Next(1, 11);
         if (guess > winningNumber)
         {
-            return "You guessed too high, try again";
+            return $"You guessed too high, try again, the number was {winningNumber}";
         }
         else if (guess < winningNumber)
         {
-            return "You guessed too low, try again";
+            return $"You guessed too low, try again, the number was {winningNumber}";
         }
         else if (guess == winningNumber)
         {
-            return "You guessed corerctly, congratulations!";
+            return $"You guessed corerctly, congratulations! The number was {winningNumber}!";
         }
 
         else
@@ -36,15 +36,15 @@ public class NumberGuesserClass : INumberGuesser
         int winningNumber = hard.Next(1, 101);
         if (guess > winningNumber && guess <= 100)
         {
-            return "You guessed too high, try again";
+            return $"You guessed too high, try again, the number was {winningNumber}";
         }
         else if (guess < winningNumber)
         {
-            return "You guessed too low, try again";
+            return $"You guessed too low, try again, the number was {winningNumber}";
         }
         else if (guess == winningNumber)
         {
-            return "You guessed corerctly, congratulations!";
+            return $"You guessed corerctly, congratulations! The number was {winningNumber}!";
         }
         else if (guess > 100)
         {
@@ -63,15 +63,15 @@ public class NumberGuesserClass : INumberGuesser
         int winningNumber = medium.Next(1, 51);
         if (guess > winningNumber && guess <= 50)
         {
-            return "You guessed too high, try again";
+            return  $"You guessed too high, try again, the number was {winningNumber}";
         }
         else if (guess < winningNumber)
         {
-            return "You guessed too low, try again";
+            return $"You guessed too low, try again, the number was {winningNumber}";
         }
         else if (guess == winningNumber)
         {
-            return "You guessed corerctly, congratulations!";
+            return $"You guessed corerctly, congratulations! The number was {winningNumber}!";
         }
         else if (guess > 50)
         {
