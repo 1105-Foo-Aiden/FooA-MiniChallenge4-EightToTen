@@ -469,24 +469,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aiden\\.nuget\\packages\\": {}
+    "/Users/Jerrod/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aiden\\Desktop\\Codestack\\Documents\\CodeStackLvl2\\Week2\\FooA-MiniChallenge4-EightToTen\\FooA-MiniChallenge4-EightToTen.csproj",
+      "projectUniqueName": "/Users/Jerrod/Documents/CodeStackAcademy/GitRepository/FooA-MiniChallenge4-EightToTen/FooA-MiniChallenge4-EightToTen.csproj",
       "projectName": "FooA-MiniChallenge4-EightToTen",
-      "projectPath": "C:\\Users\\Aiden\\Desktop\\Codestack\\Documents\\CodeStackLvl2\\Week2\\FooA-MiniChallenge4-EightToTen\\FooA-MiniChallenge4-EightToTen.csproj",
-      "packagesPath": "C:\\Users\\Aiden\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aiden\\Desktop\\Codestack\\Documents\\CodeStackLvl2\\Week2\\FooA-MiniChallenge4-EightToTen\\obj\\",
+      "projectPath": "/Users/Jerrod/Documents/CodeStackAcademy/GitRepository/FooA-MiniChallenge4-EightToTen/FooA-MiniChallenge4-EightToTen.csproj",
+      "packagesPath": "/Users/Jerrod/.nuget/packages/",
+      "outputPath": "/Users/Jerrod/Documents/CodeStackAcademy/GitRepository/FooA-MiniChallenge4-EightToTen/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Aiden\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/Jerrod/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -533,7 +534,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
