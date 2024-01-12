@@ -2,7 +2,7 @@ namespace FooA_MiniChallenge4_EightToTen.Services.Magic8Ball;
 
 public class EightBall : IEightBall
 {
-     public string eightBall(string question)
+    public string eightBall(string question)
     {
     
         Random rnd = new Random();
